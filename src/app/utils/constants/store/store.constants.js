@@ -56,7 +56,7 @@ export const stores = [
   },
   {
     international_id: '0005',
-    store_name: 'UNIQLO',
+    store_name: 'Random',
     display_code: '0005',
     business_status: 'OPEN',
     bus_access: true,

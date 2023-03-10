@@ -7,7 +7,10 @@ import {SettingsProvider} from 'app/contexts/SettingsContext';
 import {AllPages} from './routes/routes';
 import {MatxTheme} from './components';
 import {store} from './redux/store';
+import "react-tabulator/lib/styles.css";
+import "react-tabulator/css/tabulator.css";
 import './styles/style.scss';
+import './styles/tabulator.scss';
 
 const App = () => {
   const all_pages = useRoutes(AllPages());

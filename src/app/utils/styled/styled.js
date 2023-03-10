@@ -1,4 +1,4 @@
-import {Box, TextField as MUITextField, Card as MUICard} from '@mui/material';
+import {Box, TextField as MUITextField, Card as MUICard, Divider} from '@mui/material';
 import {TextValidator} from 'react-material-ui-form-validator';
 
 const {styled} = require('@mui/system');
@@ -42,4 +42,8 @@ export const StyledTextField = styled(MUITextField)(() => ({
 
 export const Card = styled(MUICard)(() => ({
   padding: '20px 30px',
+}));
+
+export const HR = styled(Divider)(() => ({
+  margin: '30px',
 }));
